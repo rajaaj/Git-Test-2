@@ -22,18 +22,21 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="215.5"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PcV-6x-Mba"/>
+                                    <action selector="printButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yk2-av-Tie"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0C-Nq-k72">
                                 <rect key="frame" x="0.0" y="235.5" width="375" height="216"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cCG-Gn-hef"/>
+                                    <action selector="printButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NSp-Tk-aEU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEB-K4-6K1">
                                 <rect key="frame" x="0.0" y="451.5" width="375" height="215.5"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Mg-ga-BjT"/>
+                                    <action selector="printButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rQV-lt-lcX"/>
                                 </connections>
                             </button>
                         </subviews>
