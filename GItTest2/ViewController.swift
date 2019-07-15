@@ -19,21 +19,19 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonPressed(_ sender: UIButton) {
-        randomNumber = Int.random(in: 1...5)
+        randomNumber = Int.random(in: 1...2)
         switch randomNumber {
         case 1:
             sender.backgroundColor = .blue
         case 2:
             sender.backgroundColor = .green
-        case 3:
-            sender.backgroundColor = .red
-        case 4:
-            sender.backgroundColor = .yellow
-        case 5:
-            sender.backgroundColor = .gray
         default:
             break
         }
+    }
+    
+    @IBAction func printButtonPressed(_ sender: UIButton) {
+        print(sender)
     }
 }
 
