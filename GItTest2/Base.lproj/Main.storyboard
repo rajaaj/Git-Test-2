@@ -19,19 +19,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nbf-Vj-6fZ">
-                                <rect key="frame" x="0.0" y="20" width="375" height="215.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="222.5"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PcV-6x-Mba"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0C-Nq-k72">
-                                <rect key="frame" x="0.0" y="235.5" width="375" height="216"/>
+                                <rect key="frame" x="0.0" y="222.5" width="375" height="222"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cCG-Gn-hef"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEB-K4-6K1">
-                                <rect key="frame" x="0.0" y="451.5" width="375" height="215.5"/>
+                                <rect key="frame" x="0.0" y="444.5" width="375" height="222.5"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Mg-ga-BjT"/>
                                 </connections>
@@ -45,7 +45,7 @@
                             <constraint firstItem="JEB-K4-6K1" firstAttribute="leading" secondItem="x0C-Nq-k72" secondAttribute="leading" id="K2r-sY-DR9"/>
                             <constraint firstItem="x0C-Nq-k72" firstAttribute="trailing" secondItem="Nbf-Vj-6fZ" secondAttribute="trailing" id="RGT-z2-GRZ"/>
                             <constraint firstItem="x0C-Nq-k72" firstAttribute="leading" secondItem="Nbf-Vj-6fZ" secondAttribute="leading" id="Vde-st-h5U"/>
-                            <constraint firstItem="Nbf-Vj-6fZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="b1L-b2-ceg"/>
+                            <constraint firstItem="Nbf-Vj-6fZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="b1L-b2-ceg"/>
                             <constraint firstItem="x0C-Nq-k72" firstAttribute="top" secondItem="Nbf-Vj-6fZ" secondAttribute="bottom" id="fjC-wM-Cxk"/>
                             <constraint firstAttribute="bottom" secondItem="JEB-K4-6K1" secondAttribute="bottom" id="l7w-4V-szJ"/>
                             <constraint firstItem="JEB-K4-6K1" firstAttribute="trailing" secondItem="x0C-Nq-k72" secondAttribute="trailing" id="nDb-As-bCh"/>
