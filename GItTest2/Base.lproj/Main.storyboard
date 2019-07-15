@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GItTest2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nbf-Vj-6fZ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="215.5"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0C-Nq-k72">
+                                <rect key="frame" x="0.0" y="235.5" width="375" height="216"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEB-K4-6K1">
+                                <rect key="frame" x="0.0" y="451.5" width="375" height="215.5"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Nbf-Vj-6fZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1Sx-mK-cyi"/>
+                            <constraint firstItem="JEB-K4-6K1" firstAttribute="height" secondItem="Nbf-Vj-6fZ" secondAttribute="height" id="4Rf-qx-YN1"/>
+                            <constraint firstItem="JEB-K4-6K1" firstAttribute="top" secondItem="x0C-Nq-k72" secondAttribute="bottom" id="I69-85-noh"/>
+                            <constraint firstItem="JEB-K4-6K1" firstAttribute="leading" secondItem="x0C-Nq-k72" secondAttribute="leading" id="K2r-sY-DR9"/>
+                            <constraint firstItem="x0C-Nq-k72" firstAttribute="trailing" secondItem="Nbf-Vj-6fZ" secondAttribute="trailing" id="RGT-z2-GRZ"/>
+                            <constraint firstItem="x0C-Nq-k72" firstAttribute="leading" secondItem="Nbf-Vj-6fZ" secondAttribute="leading" id="Vde-st-h5U"/>
+                            <constraint firstItem="Nbf-Vj-6fZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="b1L-b2-ceg"/>
+                            <constraint firstItem="x0C-Nq-k72" firstAttribute="top" secondItem="Nbf-Vj-6fZ" secondAttribute="bottom" id="fjC-wM-Cxk"/>
+                            <constraint firstAttribute="bottom" secondItem="JEB-K4-6K1" secondAttribute="bottom" id="l7w-4V-szJ"/>
+                            <constraint firstItem="JEB-K4-6K1" firstAttribute="trailing" secondItem="x0C-Nq-k72" secondAttribute="trailing" id="nDb-As-bCh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nbf-Vj-6fZ" secondAttribute="trailing" id="oLg-Kx-vpB"/>
+                            <constraint firstItem="x0C-Nq-k72" firstAttribute="height" secondItem="Nbf-Vj-6fZ" secondAttribute="height" id="wv1-q9-VBj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
